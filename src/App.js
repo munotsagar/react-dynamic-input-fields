@@ -2,8 +2,8 @@ import "./styles.css";
 import { useState } from "react";
 export default function App() {
   const emp = [
-    { first_name: "emp1_first", last_name: "emp1_last" },
-    { first_name: "emp2_first", last_name: "emp2_last" }
+    { first_name: "Sagar", last_name: "Munot" },
+    { first_name: "Test", last_name: "Demo" }
   ];
   const [inputValue, setInputValue] = useState(emp);
   const printValues = (e) => {
